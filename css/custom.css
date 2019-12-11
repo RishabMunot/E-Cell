@@ -1,0 +1,125 @@
+.ecell-color {
+  color: #407EC1;
+}
+
+.ecell-title {
+  font-family: cursive;
+}
+
+.contact-wrapper {
+  background: url("../img/bg_1.jpg") fixed no-repeat;
+  background-size: cover;
+  padding: 3rem 0;
+}
+
+.contact-wrapper .contact {
+  margin: auto;
+}
+
+.contact-wrapper .contact .contact-info {
+  background: #000a;
+  position: relative;
+  border-radius: 15px 0px 0px 15px;
+  padding: 1rem;
+}
+
+.contact-wrapper .contact .contact-info .title {
+  font-size: 2rem;
+  text-align: center;
+  color: #f6f6f6;
+  font-family: 'Ubuntu';
+  margin-bottom: 2.2rem;
+}
+
+.contact-wrapper .contact .contact-info .info-content {
+  color: #f6f6f6;
+  font-size: 0.9rem;
+  margin: 1rem 2rem;
+}
+
+.contact-wrapper .contact .contact-info .info-content i {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.contact-wrapper .contact .contact-info .media-icons {
+  margin: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-wrapper .contact .contact-info .media-icons i {
+  color: #333;
+  columns: #333;
+  background-color: #f6f6f6;
+  padding: 0.5rem;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.contact-wrapper .contact .contact-form {
+  position: relative;
+  background: #fffb;
+  border-radius: 0px 15px 15px 0;
+  padding: 1rem;
+}
+
+.contact-wrapper .contact .contact-form .title {
+  font-size: 2rem;
+  text-align: center;
+  color: #333;
+  font-family: 'Ubuntu';
+}
+
+.contact-wrapper .contact .contact-form .form-content {
+  padding: 1rem;
+  text-align: center;
+}
+
+.contact-wrapper .contact .contact-form .form-content input,
+.contact-wrapper .contact .contact-form .form-content textarea {
+  width: 100%;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #555;
+  border-radius: 0px;
+  background: transparent;
+  outline: none;
+}
+
+.contact-wrapper .contact .contact-form .form-content input:focus,
+.contact-wrapper .contact .contact-form .form-content textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.contact-wrapper .contact .contact-form .form-content button {
+  margin: auto;
+  width: 200px;
+  text-align: center;
+  box-shadow: 1px 3px 15px rgba(39, 44, 49, 0.5);
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-wrapper {
+    background-position: center;
+    padding: 3rem 0;
+  }
+
+  .contact-wrapper .contact .contact-info {
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  .contact-wrapper .contact .contact-form {
+    position: relative;
+    background: #fffb;
+    border-radius: 0px 0px 15px 15px;
+    padding: 1rem;
+  }
+}
+
+.info-content .no-link-style {
+  color: #f6f6f6;
+}
