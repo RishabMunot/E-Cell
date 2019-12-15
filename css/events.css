@@ -122,6 +122,21 @@ span{
   background-color: lightblue;
 }
 
+.for-str{
+  background-color: #ff9f00;
+}
+
+.for-stu{
+  background-color: #ff3737;
+}
+
+.name-of-event{
+  font-size: 25px;
+  text-align: center;
+  padding-top: 25%;
+  vertical-align: middle;
+}
+
 
 .box:hover{
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
@@ -253,6 +268,13 @@ span{
     min-width: 100px;
     height: 100px;
   }
+
+
+  .name-of-event{
+    font-size: 20px;
+    padding-top: 12%;
+  }
+
 }
 
 
@@ -298,6 +320,9 @@ span{
     font-size: 30px;
   }
 
+/* .name-of-event{
+  font-size: 10px;
+} */
 
 
 }

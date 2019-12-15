@@ -1,0 +1,251 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.about  {
+    padding-top: 2%;
+    height: 100vh;
+}
+
+.title-div{
+    width: 70%;
+    padding: 5% 15%;
+    background:#f44336;
+    animation: boxAnimation 1s;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2)
+}
+
+.title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 5px;
+    margin: 0;
+    /* transform: translateY(20px) */
+    animation: appear 1s ;
+}
+
+.vertical-line{
+    z-index: -1;
+    position: absolute;
+    left: 70px;
+    width: 3px;
+    height: 100vh;
+    background: #1e1e1e;
+    animation: drawLine 1s ease-in-out;
+}
+
+.subtitle-div{
+    padding: 5% 0 2% 15% ;
+}
+
+.subtitle{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    font-size: 27px;
+    margin: 0;
+    animation: appear 1.5s;
+}
+
+.content-div{
+    padding: 0 0 4% 15% ;
+}
+
+.content{
+    font-size: 20px;
+    animation: appear 2s;
+}
+
+.rules-div{
+    padding: 0 0 0 15%;
+}
+
+.rules{
+    margin-top: 4.5%;
+}
+
+ul{
+    padding: 2% 3% 3% 3%;
+    font-size: 18px;
+}
+
+li{
+    padding: 5px 0;
+}
+
+.register-div{
+    padding: 0 0 0 15%;
+}
+
+.register{}
+
+.img-div{
+    padding: 10% 12% 0 12%;
+    -webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+
+.image{
+    z-index: 10;
+    width: 100%;
+
+    height: 70vh;
+    object-fit: cover;
+    animation: appear 3s;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.2)
+}
+
+.dotted-border-2{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: -1;
+    top: 605px;
+    right: 80px;
+    animation: bottomAppear 1s;
+}
+
+.dotted-border-1{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: -1;
+    top: 30px;
+    left: 80px;
+    animation: bottomAppear 1s;
+}
+
+.dotted-border{
+    border: dotted;
+    color: #000;
+    width: 60px;
+    border-width: 12px 0 0 0;
+}
+
+.links-div{
+    padding: 2% 15%;
+}
+
+.social-media-div{
+    margin-top: 2px;
+    text-align: center;
+}
+
+.link{
+    animation: bottomAppear 1s;
+}
+
+.fb{
+    color: #3b5998;
+}
+
+.insta{
+    color: #c13929;
+}
+
+.twit{
+    color: #00acee;
+}
+
+.in{
+    color: #0e76a8;
+}
+
+.media-name{
+    display: none;
+    font-family: 'Open Sans',
+
+}
+
+.link:hover + .media-name{
+    display: block;
+    animation: socialMedia 0.5s;
+}
+
+
+@media screen and (max-width: 600px) {
+    body{
+        background: #fff;
+    }
+    .about{
+        padding: 0;
+    }
+    .title-div{
+        padding-left: 10%;
+        width: 70%;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .subtitle-div{
+        padding: 4% 0 4% 10%;
+
+    }
+    .subtitle{
+        font-size: 24px;
+    }
+    .vertical-line{
+        left: 20px;
+        height: 100vh;
+    }
+    .content-div{
+        padding-left: 10%;
+    }
+    .content{
+        font-size: 20px;
+    }
+    .main-img-div{
+        display: none;
+    }
+  }
+
+
+
+@keyframes appear{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes boxAnimation {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 70%;
+    }
+}
+
+@keyframes drawLine {
+    from{
+        height: 0;
+    }
+    to{
+        height: 100vh;
+    }
+}
+
+@keyframes socialMedia {
+    from{
+        transform: rotateY(70deg);
+    }
+    to{
+        transform: rotateY(0deg);
+    }
+}
+
+@keyframes  bottomAppear{
+    from{
+        opacity: 0;
+        transform: translateY(20px)
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px)
+    }
+}

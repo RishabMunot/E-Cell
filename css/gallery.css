@@ -21,12 +21,12 @@
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 25%;
-  padding: 0 4px;
+  padding: 0 2.5px;
 }
 
 .columne img {
-  border-radius: 10px 0 10px 0;
-  margin-top: 8px;
+  border-radius: 4px;
+  margin-top: 5px;
   vertical-align: middle;
   width: 100%;
 }

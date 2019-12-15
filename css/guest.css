@@ -1,1 +1,11 @@
 @import "gallery.css";
+
+
+.single-speaker-area{
+  height: 370px;
+}
+
+.single-speaker-area .speaker-single-thumb img{
+  object-fit: cover;
+  height: 370px;
+}
