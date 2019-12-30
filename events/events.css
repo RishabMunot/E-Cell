@@ -165,7 +165,7 @@ filter: grayscale(100%);
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
     body{
         background: #fff;
     }
@@ -177,14 +177,14 @@ filter: grayscale(100%);
         width: 70%;
     }
     .title{
-        font-size: 28px;
+        font-size: 25px;
     }
     .subtitle-div{
         padding: 4% 0 4% 10%;
 
     }
     .subtitle{
-        font-size: 24px;
+        font-size: 18px;
     }
     .vertical-line{
         left: 20px;
@@ -192,13 +192,38 @@ filter: grayscale(100%);
     }
     .content-div{
         padding-left: 10%;
+        padding-right: 5%;
     }
     .content{
-        font-size: 20px;
+        font-size: 17px;
     }
     .main-img-div{
         display: none;
     }
+
+    .rules-div{
+      padding: 0;
+      padding-left: 10%;
+    }
+
+    .rules{
+      font-size: 21px;
+      padding: 0;
+    }
+
+    ul li{
+      font-size: 17px;
+    }
+
+    .register-div{
+      padding: 2% 5% 5% 10%;
+
+    }
+  .register-div a{
+    width: 100%;
+    }.
+
+
   }
 
 

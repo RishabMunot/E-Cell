@@ -1,1 +1,20 @@
-@import "events.css";
+
+.about-us-countdown-area .about-content-text h6 {
+  color: #ff3737;
+}
+
+
+
+
+.single-welcome-slide .welcome-text-two h2 {
+  color: #ff3737;
+}
+
+.confer-btn::before  {
+  background-color: #ff3737;
+  background-image: linear-gradient( #ff3737,  #ff3737);
+}
+
+.our-schedule-area .schedule-tab .nav-tabs .nav-item .nav-link{
+  background-color: #ff3737;
+}
