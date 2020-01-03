@@ -60,10 +60,20 @@ body{
 
 .rules-div{
     padding: 0 0 0 15%;
+    margin: 2% 0;
 }
 
 .rules{
     margin-top: 4.5%;
+    margin-bottom: 3%;
+}
+
+.file{
+  margin: 3% 0;
+}
+
+.blue{
+  color: blue;
 }
 
 ul{
