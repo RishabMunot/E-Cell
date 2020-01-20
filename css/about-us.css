@@ -1,1 +1,13 @@
 @import "events.css";
+
+
+.text {
+    font-size: 20px;
+
+}
+
+.subtitle {
+    margin: 30px 0;
+    font-size: 30px;
+    font-family: sans-serif;
+}
