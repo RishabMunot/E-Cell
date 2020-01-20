@@ -1,0 +1,110 @@
+body{
+  /* background-color: black; */
+  /* color: #fff; */
+  overflow-x: hidden;
+}
+
+.title{
+  text-align: center;
+  padding: 40px;
+  font-size: 40px;
+}
+
+.navbar{
+  width: 100%;
+}
+
+.nav-item{
+}
+
+a{
+  color: #000;
+}
+
+
+.list-of-workshops{
+  padding: 0 15%;
+  /* padding: 0 2rem; */
+}
+
+.card-img-top{
+  border-radius: 10px 10px 0 0 ;
+}
+
+.card{
+  background-color: #000;
+  border-radius: 20px;
+  padding: 0;
+  box-shadow: 4px 2px 10px  rgba(0, 0, 0, 0.4);
+  margin:  10px 10px;
+  border: 0;
+}
+
+.card-body{
+  /* display: inline-block; */
+}
+
+.card-text{
+  display: inline;
+  color: #000;
+  color: #fff;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.button{
+  clear: right;
+  float: right;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 0;
+  text-transform: none;
+}
+
+@media screen and (max-width: 720px) {
+
+  .title{
+    font-size: 24px;
+    padding: 40px;
+  }
+
+  .list-of-workshops{
+    padding: 0 10%;
+  }
+
+  .card{
+    min-width: 35%;
+    border-radius: 10px;
+  }
+  .card-text{
+    font-size: 12px;
+  }
+
+  .button{
+    font-size: 10px;
+  }
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 720px){
+  .title{
+    font-size: 35px;
+    padding: 40px;
+  }
+
+  .list-of-workshops{
+    padding: 0 5%;
+  }
+
+  .card{
+    min-width: 35%;
+    border-radius: 10px;
+  }
+  .card-text{
+    font-size: 18px;
+  }
+  .button{
+    font-size: 18px;
+  }
+}
