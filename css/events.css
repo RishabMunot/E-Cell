@@ -1,19 +1,21 @@
 @import "workshop.css";
 
-.title{
+.title {
   padding: 40px;
 }
 
-.a{
+.a {
   top: 30%;
 }
 
-.main{
+.disabled {}
+
+.main {
   text-align: center;
   padding: 0 15%;
   position: relative;
   width: 100%;
-  margin: 40px 0 0 0 ;
+  margin: 40px 0 0 0;
   height: 60%;
   color: #fff;
   /* animation: wideL 1s; */
@@ -21,7 +23,7 @@
 
 }
 
-.div-1{
+.div-1 {
   width: 50%;
   background-color: #ff9f00;
   transition: 1s;
@@ -32,7 +34,7 @@
   animation: wideR 1s 1s forwards;
 }
 
-.vr{
+.vr {
   position: relative;
   top: -5%;
   height: 110%;
@@ -44,7 +46,7 @@
 }
 
 
-.div-2{
+.div-2 {
   width: 50%;
   margin: 0;
   margin-left: 30px;
@@ -55,18 +57,19 @@
 
 
 }
-a{
+
+a {
   display: block;
   position: relative;
   color: #fff;
 }
 
-.content{
+.content {
   position: relative;
 }
 
 
-a:hover{
+a:hover {
   /* color: #ffcc22; */
   color: #fff;
   /* color: #0071bc; */
@@ -74,36 +77,36 @@ a:hover{
   text-decoration: none;
 }
 
-a:hover span{
+a:hover span {
   color: #0071bc;
   color: #ffcc22;
 
 }
 
-span{
+span {
   font-size: 35px;
 
 }
 
-.img{
+.img {
   width: 200px;
   height: 200px;
 }
 
-.text{
+.text {
   font-size: 24px;
 }
 
-.events{
-    padding: 4% 15%;
-    /* padding-bottom: 0; */
+.events {
+  padding: 4% 15%;
+  /* padding-bottom: 0; */
 }
 
-.heading{
+.heading {
   font-size: 35px;
 }
 
-.hr{
+.hr {
 
   margin: 20px 0;
   height: 2px;
@@ -112,7 +115,7 @@ span{
 
 }
 
-.box{
+.box {
   position: relative;
   width: 100%;
   height: 200px;
@@ -122,15 +125,15 @@ span{
   background-color: lightblue;
 }
 
-.for-str{
+.for-str {
   background-color: #ff9f00;
 }
 
-.for-stu{
+.for-stu {
   background-color: #ff3737;
 }
 
-.name-of-event{
+.name-of-event {
   font-size: 25px;
   text-align: center;
   padding-top: 25%;
@@ -138,28 +141,29 @@ span{
 }
 
 
-.box:hover{
+.box:hover {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-.evnt-logo{
+.evnt-logo {
   position: absolute;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.for-students{
+.for-students {
   padding-top: 40px;
 }
 
 
 
 @keyframes line {
-  from{
+  from {
     height: 0;
   }
-  to{
+
+  to {
     height: 110%;
   }
 }
@@ -167,16 +171,17 @@ span{
 
 
 @keyframes wideR {
-  from{
+  from {
     /* transform: translateX(30px); */
     /* opacity: 0; */
     /* width: 0; */
     /* width: 50%; */
     opacity: 0;
 
-    height: 0 ;
+    height: 0;
   }
-  to{
+
+  to {
     opacity: 1;
 
     /* transform: translateX(0); */
@@ -205,23 +210,23 @@ span{
 
 
 @media screen and (max-width: 720px) {
-  .title{
+  .title {
     font-size: 24px;
     padding: 40px;
   }
 
-  .main{
+  .main {
     padding: 0 10%;
     margin: 0;
     margin-bottom: 40px;
     display: inline-block;
   }
 
-  .vr{
+  .vr {
     display: none;
   }
 
-  .div-1{
+  .div-1 {
     position: relative;
     visibility: visible;
     width: 100%;
@@ -231,7 +236,7 @@ span{
     animation: none;
   }
 
-  .div-2{
+  .div-2 {
     position: relative;
     width: 100%;
     margin: 0;
@@ -241,43 +246,42 @@ span{
     animation: none;
   }
 
-  .a{
+  .a {
     top: 25%;
   }
 
-  .img{
+  .img {
     width: 100px;
     height: 100px;
   }
 
-  .text{
+  .text {
     font-size: 22px;
   }
 
-  .events{
+  .events {
     text-align: center;
-      padding: 0 10%;
+    padding: 0 10%;
   }
-  .heading{
+
+  .heading {
     font-size: 24px;
   }
 
-  .box{
+  .box {
     min-width: 100px;
     height: 100px;
   }
 
 
-  .name-of-event{
+  .name-of-event {
     font-size: 16px;
     padding-top: 25%;
   }
 
-  .l1{
+  .l1 {}
 
-  }
-
-  .l2{
+  .l2 {
     font-size: 20px;
     padding-top: 12%;
   }
@@ -285,28 +289,28 @@ span{
 }
 
 
-@media screen and (max-width: 1200px) and (min-width: 720px){
-  .title{
+@media screen and (max-width: 1200px) and (min-width: 720px) {
+  .title {
     font-size: 35px;
     padding: 40px;
   }
 
-  .main{
+  .main {
     padding: 0 4%;
     margin-bottom: 6%;
   }
 
-  .div-1{
+  .div-1 {
     margin: 0;
     margin-right: 30px;
   }
 
-  .div-2{
+  .div-2 {
     margin: 0;
     margin-left: 30px;
   }
 
-  .a{
+  .a {
     top: 25%;
   }
 
@@ -315,19 +319,20 @@ span{
     height: 100px;
   } */
 
-  .text{
+  .text {
     /* font-size: 22px; */
   }
 
-  .events{
+  .events {
     text-align: center;
     padding: 0 4%;
   }
-  .heading{
+
+  .heading {
     font-size: 30px;
   }
 
-/* .name-of-event{
+  /* .name-of-event{
   font-size: 10px;
 } */
 
