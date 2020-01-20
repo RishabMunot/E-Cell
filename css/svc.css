@@ -86,8 +86,8 @@ section h2 {
 }
 
 #mainNav .navbar-nav>li>a {
-    font-size: 16px;
-    padding: 10px 20px;
+    font-size: 14px;
+    padding: 10px 24px;
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     letter-spacing: 2px;
     text-transform: uppercase;
