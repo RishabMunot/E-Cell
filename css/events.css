@@ -123,6 +123,9 @@ span {
   margin-bottom: 30px;
   transition: 0.5s;
   background-color: lightblue;
+  object-fit: cover;
+  background-size: cover;
+
 }
 
 .for-str {
