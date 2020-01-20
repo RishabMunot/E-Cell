@@ -27,6 +27,9 @@ body{
     animation: appear 1s ;
 }
 
+.btn-danger{
+    background:#f44336;
+}
 .vertical-line{
     z-index: -1;
     position: absolute;
