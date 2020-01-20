@@ -4,16 +4,44 @@
   position: relative;
   z-index: 1;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 017a94c45cf1abd2c5baf11bfb2124905e8ea053
 .map-area iframe {
   height: 580px;
   width: 100%;
   border: none;
 }
 
+<<<<<<< HEAD
 .active{
   color: #000;
 }
 
+=======
+.active {
+  color: #000;
+}
+
+.media-icons {
+  display: flex;
+  padding: 0 10%;
+}
+
+.fa {
+  color: #000;
+}
+
+.icon {
+  padding: 40px 21.4%;
+  padding-left: 0;
+  color: #000;
+  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
+}
+
+>>>>>>> 017a94c45cf1abd2c5baf11bfb2124905e8ea053
 .contact--info-area {
   padding: 40px 50px 0;
   position: relative;
@@ -24,6 +52,7 @@
 }
 
 .single-contact--info {
+<<<<<<< HEAD
     position: relative;
     z-index: 1;
     margin-bottom: 50px;
@@ -35,6 +64,19 @@
       margin-bottom: 0;
       margin-top: 10px;
       display: inline-block;
+=======
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px;
+}
+
+.single-contact--info h5 {
+  color: #111343;
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  display: inline-block;
+>>>>>>> 017a94c45cf1abd2c5baf11bfb2124905e8ea053
 }
 
 
@@ -45,6 +87,12 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact--info-area .single-contact--info h5 {
+<<<<<<< HEAD
       font-size: 14px;
   }
 }
+=======
+    font-size: 14px;
+  }
+}
+>>>>>>> 017a94c45cf1abd2c5baf11bfb2124905e8ea053

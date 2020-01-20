@@ -27,9 +27,12 @@ body{
     animation: appear 1s ;
 }
 
+<<<<<<< HEAD
 .btn-danger{
     background:#f44336;
 }
+=======
+>>>>>>> 017a94c45cf1abd2c5baf11bfb2124905e8ea053
 .vertical-line{
     z-index: -1;
     position: absolute;
