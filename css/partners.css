@@ -1,34 +1,215 @@
-.box {
+.img-grid {
+  opacity: 1;
+  margin: 0;
+  width: 100%;
+  padding: 2% 5%;
+  padding-right: 3%;
+  animation: appearImgGrid 2s 2s forwards;
+}
+
+.events {
+  padding: 0 15%;
+}
+
+.card-div {
+  margin: 0 0 15px 0;
+}
+
+a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.image-div {
+  width: 100%;
+  max-width: 20vh;
+  min-width: 20vh;
+  /* margin: auto;   */
+  border-radius: 10px;
+  background-color: #fff;
+  height: 20vh;
   background-size: contain;
   background-repeat: no-repeat;
-  background-color: #fff;
+}
 
+
+
+.n1 {
+
+  background-image: url('../img/spons/tvf.webp');
+}
+
+.n2 {
+
+  background-image: url('../img/spons/union-bank.png');
+}
+
+.n3 {
+
+  background-image: url('../img/spons/midday.png');
+}
+
+.n6 {
+
+  background-image: url('../img/spons/bob.jpg');
+}
+
+.n5 {
+
+  background-image: url('../img/spons/zebronics.png');
+}
+
+.n7 {
+
+  background-image: url('../img/spons/mc-graw-hill.png');
+}
+
+.n8 {
+
+  background-image: url('../img/spons/zoot.jpg');
+}
+
+.n4 {
+
+  background-image: url('../img/spons/red-bull.png');
+}
+
+.n9 {
+
+  background-image: url('../img/spons/red-wolf.jpg');
+}
+
+.n10 {
+
+  background-image: url('../img/spons/puma.jpg');
+}
+
+.n11 {
+
+  background-image: url('../img/spons/d2c.png');
+}
+
+.n12 {
+  background-image: url('../img/spons/mcd.jpg');
+}
+
+.n13 {
+  background-image: url('../img/spons/sbi.svg');
+}
+
+
+.n14 {
+  background-image: url('../img/spons/cidco.jpg');
+}
+
+.n15 {
+  background-image: url('../img/spons/maharashtra-times.jpeg');
+}
+
+.n16 {
+  background-image: url('../img/spons/fiat.png');
+}
+
+.n17 {
+  background-image: url('../img/spons/bob.jpg');
+}
+
+.n18 {
+  background-image: url('../img/spons/bisleri.gif');
+}
+
+.n19 {
+  background-image: url('../img/spons/ccd.png');
+}
+
+.n20 {
+  background-image: url('../img/spons/frapp.png');
+}
+
+.n21 {
+  background-image: url('../img/spons/dhadoom.jpg');
+}
+
+.n22 {
+  background-image: url('../img/spons/internshala.png');
+}
+
+.n23 {
+  background-image: url('../img/spons/hdfc.png');
+}
+
+.n24 {
+  background-image: url('../img/spons/souledstore.jpg');
+}
+
+.n25 {
+  background-image: url('../img/spons/mod.jpg');
+}
+
+.n26 {
+  background-image: url('../img/spons/boi.png');
+}
+
+.n27 {
+  background-image: url('../img/spons/ennovent.jpg');
+}
+
+
+.n28 {
+  background-image: url('../img/spons/amazon-web-services.png');
+}
+
+.n29 {
+  background-image: url('../img/spons/jet-airways.jpg');
+}
+
+.n30 {
+  background-image: url('../img/spons/excubator.png');
+}
+
+.n31 {
+  background-image: url('../img/spons/entrepreur.jpg');
+}
+
+.n32 {
+  background-image: url('../img/spons/priceton.png');
 }
 
 
 
 
+
 @media screen and (max-width: 720px) {
+
   .events {
-    padding: 0;
+    padding: 2% 5%;
+  }
+
+  .img-grid {
+    width: 100%;
+    padding: 2% 10%;
     margin: 0;
-    width: 300px;
-
+    animation: appearImgGrid 2s 2s forwards;
   }
 
-  .for-startups {
-    margin: 0;
+  .card-div {
+    /* margin: 0 0 15px 0; */
+    padding: 0 10px;
+  }
+
+
+
+  .image-div {
     padding: 0;
+    max-width: 13vh;
+    min-width: 13vh;
+    height: 13vh;
   }
 
-
-
-  .box {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #fff;
-    width: 50px;
-    padding: 0;
-    height: 100px;
-  }
 }
